@@ -1,0 +1,29 @@
+{
+  "name": "restfull_api_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielakinola/RESTFULL_API_PROJECT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielakinola/RESTFULL_API_PROJECT/issues"
+  },
+  "homepage": "https://github.com/gabrielakinola/RESTFULL_API_PROJECT#readme",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
