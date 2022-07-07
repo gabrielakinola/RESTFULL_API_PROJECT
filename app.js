@@ -50,6 +50,17 @@ app.put("/api/genres/:id", (req, res) => {
   });
 });
 
+app.delete("/api/genres/:id", (req, res) => {
+  const id = req.params.id;
+
+  Genre.removeGenre(id, (err, genre) => {
+    if (err) {
+      throw err;
+    }
+    res.json(genre);
+  });
+});
+
 app.get("/api/books", (req, res) => {
   Book.getBooks((err, books) => {
     if (err) {
